@@ -10,3 +10,6 @@ def subtract_a_b(a, b):
 
 def multiply_a_b(a, b):
   return b * a
+
+def dummy_function_2(a, b):
+  return b
