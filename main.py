@@ -3,3 +3,6 @@ def sum_a_b(a, b):
 
 def subtract_a_b(a, b):
   return a - b
+
+def multiply_b_a(a,b):
+  return b * a
