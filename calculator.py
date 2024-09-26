@@ -10,6 +10,10 @@ def multiply(x, y):
 def divide(x, y):
     pass
 
+def square(x, y):
+    pass
+
+
 def main():
     print("Welcome to the Calculator")
 
@@ -25,6 +29,9 @@ def main():
         print(f"Result: {multiply(num1, num2)}")
     elif operation == '/':
         print(f"Result: {divide(num1, num2)}")
+    elif operation == '^':
+        print(f"Result: {square(num1, num2)}")
+    
     else:
         print("Invalid operation")
 
