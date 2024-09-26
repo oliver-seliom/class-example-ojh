@@ -8,7 +8,10 @@ def multiply(x, y):
     pass
 
 def divide(x, y):
-    pass
+    while y == 0:
+        y = float(input("Denominator cannot be zero. Please enter a new value for y: "))
+    
+    return x / y 
 
 def main():
     print("Welcome to the Calculator")
