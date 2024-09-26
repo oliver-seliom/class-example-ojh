@@ -8,7 +8,12 @@ def multiply(x, y):
     return x*y
 
 def divide(x, y):
-    return x/y
+    if y != 0:
+        return x/y
+    else:
+        return print("0")
+    
+
 
 def main():
     print("Welcome to the Calculator")
