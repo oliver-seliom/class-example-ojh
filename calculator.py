@@ -15,6 +15,7 @@ def divide(x, y):
         return "Error: Division by zero is undefined."
     else: 
         return x/y
+
 def main():
     print("Welcome to the Calculator")
 
