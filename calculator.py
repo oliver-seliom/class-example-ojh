@@ -8,6 +8,7 @@ def multiply(x, y):
     pass
 
 def divide(x, y):
+    # warning with the divisions by 0
     return x/y
 
 def main():
