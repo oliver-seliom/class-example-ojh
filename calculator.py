@@ -1,15 +1,20 @@
 def add(x, y):
-    pass
+    return x + y
+    
 
 def subtract(x, y):
-    pass
+    return x - y
+    
 
 def multiply(x, y):
-    pass
+    return x * y
+    
 
 def divide(x, y):
-    pass
-
+    if y == 0:
+        return "Error: Division by zero is undefined."
+    else: 
+        return x/y
 def main():
     print("Welcome to the Calculator")
 
