@@ -9,7 +9,13 @@ def multiply(x, y):
 
 def divide(x, y):
     # warning with the divisions by 0
-    return x/y
+    result = ""
+    if y == 0:
+        result = "Division by 0 is not possible"
+    else: 
+        result = x/y
+        
+    return result
 
 def main():
     print("Welcome to the Calculator")
