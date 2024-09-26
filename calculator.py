@@ -24,7 +24,10 @@ def main():
     elif operation == '*':
         print(f"Result: {multiply(num1, num2)}")
     elif operation == '/':
-        print(f"Result: {divide(num1, num2)}")
+        if num2 == 0:
+            print("Cannot divide by 0")
+        else:
+            print(f"Result: {divide(num1, num2)}")
     else:
         print("Invalid operation")
 
