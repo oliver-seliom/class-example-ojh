@@ -11,7 +11,7 @@ def divide(x, y):
     return x/y
 
 def main():
-    print("Welcome to the Calculator")
+    print("Welcome to the Calculator changed")
 
     operation = input("Enter operation (+, -, *, /): ")
     num1 = float(input("Enter first number: "))
