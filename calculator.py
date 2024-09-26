@@ -1,14 +1,14 @@
 def add(x, y):
-    pass  # Group 1 will implement this
+    pass
 
 def subtract(x, y):
-    pass  # Group 2 will implement this
+    pass
 
 def multiply(x, y):
-    pass  # Group 3 will implement this
+    pass
 
 def divide(x, y):
-    pass  # Group 4 will implement this
+    pass
 
 def main():
     print("Welcome to the Calculator")
