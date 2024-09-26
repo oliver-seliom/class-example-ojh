@@ -1,14 +1,22 @@
 def add(x, y):
-    pass
+    res = x + y
+    return res
+
 
 def subtract(x, y):
-    pass
+    res = x - y
+    return res
+
 
 def multiply(x, y):
-    pass
+    res = x * y
+    return res
+
 
 def divide(x, y):
-    pass
+    res = x / y
+    return res
+
 
 def main():
     print("Welcome to the Calculator")
@@ -27,6 +35,7 @@ def main():
         print(f"Result: {divide(num1, num2)}")
     else:
         print("Invalid operation")
+
 
 if __name__ == "__main__":
     main()
